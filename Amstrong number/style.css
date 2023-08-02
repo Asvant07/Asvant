@@ -1,0 +1,13 @@
+.roll{
+    border:2px solid black;
+    height:200px;
+    width:400px;
+    margin-left:30%;
+    background-color:rgb(172, 232, 234);
+    padding:20px;
+}
+.as{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
