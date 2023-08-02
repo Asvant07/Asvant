@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+form{
+    background-color: aqua;
+    height:80px;
+    margin-left: 500px;
+    margin-top: 300px;
+    padding:20px;
+    width:300px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 70px;
+}
