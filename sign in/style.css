@@ -1,0 +1,58 @@
+.one{
+    margin-left: 800px;
+    margin-top: 200px;
+    background-color: cyan;
+    width: 550px;
+    padding: 20px;
+}
+.roll{
+    background-color:azure;
+    width:400px;
+    padding:50px;
+    border-radius: 10%;
+    margin-left:20px;
+    
+}
+.two{
+    margin-top: 40px;
+}
+.three{
+    margin-top: 20px;
+}
+#mail{
+    padding:10px;
+    width:300px;
+}
+#password{
+    padding:10px;
+    width:300px;
+}
+button{
+    background-color:red;
+    width:150px;
+    height:50px;
+    margin-left: 100px;
+    border-radius: 10%;
+    cursor:pointer;
+    margin-top: 30px;
+}
+a{
+    color: rgb(245, 145, 145);
+}
+h1{
+    margin-left: 100px;
+}
+button:hover{
+    transition:scale(2.0s,1.5s);
+    background-color: blueviolet;
+
+}
+.six{
+    margin-top: 40px;
+    
+}
+p{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+}
