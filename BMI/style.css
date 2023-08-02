@@ -1,0 +1,44 @@
+.one{
+    border:2px solid black;
+   padding:60px;
+    width:300px;
+    margin-left:35%;
+    
+         
+}
+.roll{
+  align-items: center;
+  display: flex;
+  gap:10px;
+  margin-left:10%;
+}
+.two{
+    border:2px solid black;
+    height:20px;
+    width:130px;
+    
+    
+}
+#final{
+  margin-left:16%;
+  animation:ani 2s linear infinite;
+
+}
+.three{
+    border:2px solid black;
+    height:20px;
+    width:130px;
+    
+}
+button{
+    padding:10px;
+    background-color:rgb(108, 247, 98);
+    margin-left:33%;
+    cursor:pointer;
+}
+input{
+  margin-left:30%;
+}
+button:hover{
+    transform: scale(1.1);
+}

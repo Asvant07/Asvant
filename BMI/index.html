@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <body>
+
+        <div class="one">
+          <h1>Calculate Your BMI</h1>
+          <br>
+        <input type="range" min="0" max="200" id="one" onchange="range()">
+    
+          <div class="roll"> 
+             <h3>Weight</h3>
+             <div class="two">
+              </div>
+             <h3>kg</h3>
+          </div>
+    
+          <input type="range" min="0" max="200" id="two" onchange="range()">
+          
+    
+        <div class="roll">
+           
+         <h3>Height</h3>
+         <div class="three">
+          
+         </div>
+         <h3>cm</h3>
+        </div>
+    
+          
+          <button onclick="myCal()">CALCULATE</button>
+          <div>
+            <p id="final"></p>
+        </div>
+    
+        </div>
+        <script src="script.js"></script>
+    
+</body>
+</html>
