@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="set">
+        <div id="box1">
+            <div style="margin:30% 30%">
+            <label class="in" >Enter</label><br>
+            
+            <input id="text"type="text" required/>
+            <p id="out"></p>
+            <br>
+            <button id="click" onclick="submit()"type="button">Submit</button>
+            <br>
+        </div>
+    </div>
+        <div id="box2"></div>
+<script>
+    function submit(){
+
+    let a=document.getElementById("text").value 
+    if(a!="")
+    {
+        let b=document.getElementById("out").innerHTML=("Correct number")
+        let box2=document.getElementById("box2")
+        let p1=document.createElement("p")
+        p1.append(a)
+        box2.append(p1)
+
+        let add=document.createElement("INPUT")
+        add.setAttribute("type","submit")
+        add.value="delete"
+
+        let add1=document.createElement("INPUT")
+        add1.setAttribute("type","submit")
+        add1.value="edit"
+
+        box2.append(add);
+        box2.append(add1);
+
+        add.removeEventListener('click',function(){
+            p1.remove()
+            add1.remove();
+            add.remove();
+
+        })
+     }
+else{
+    let c=document.getElementById("out").innerHTML=("Enter the valid number")
+}}
+</script>
+</body>
+</html>

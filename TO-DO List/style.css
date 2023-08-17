@@ -1,0 +1,37 @@
+#box1{
+    height:400px;
+    width:400px;
+    border:5px solid black;
+    background-color:rgb(12, 236, 236);
+    border-radius: 10%;
+}
+#box2{
+    height:400px;
+    width:400px;
+    text-align:center;
+    border:5px solid black;
+    background-color: red;
+    border-radius: 10%;
+}
+.set{
+    display: flex;
+    padding-left: 350px;
+    padding-top: 150px;
+    gap:10px;}
+.in{
+    padding-right: 60px;
+}
+button{
+    margin-top: 20px;
+
+}
+.part{
+    padding-left: 20px;
+}
+#text{
+    padding: 5px;
+    width:200px;
+}
+#click{
+    margin-left: 50px;
+}
